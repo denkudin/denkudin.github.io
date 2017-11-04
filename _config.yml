@@ -24,7 +24,7 @@ github_username:  denkudin
 # Build settings
 markdown: kramdown
 timezone: Europe/Kiev
-theme: jekyll-theme-modernist
+theme: jekyll-theme-leap-day
 destination: _site
 plugins:
   - jekyll-feed
