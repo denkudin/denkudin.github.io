@@ -17,8 +17,8 @@
   <body>
 
       <header>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <h1>{{ site.title[page.lang] }}</h1>
+        <p>{{ site.description[page.lang] }}</p>
       </header>
 
       <div id="banner">
