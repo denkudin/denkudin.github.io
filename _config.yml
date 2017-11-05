@@ -1,6 +1,6 @@
 title: 
-  ru: XXX
-  en: YYY
+  ru: Частный кибердетектив Денис Кудин
+  en: Private Cyberdetective Dennis Kudin
 email: dennis@kudin.net
 description: 
   ru: Услуги частного кибердетектива в Украине. Комплексный подход к защите информации
@@ -8,8 +8,8 @@ description:
 index:
   ru: /
   en: /en/
-baseurl: "" 
-url: "" 
+baseurl: "/" 
+url: "https://denkudin.github.io" 
 twitter_username: denkudin
 github_username:  denkudin
 
