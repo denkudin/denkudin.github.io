@@ -1,13 +1,13 @@
 title: 
-  RU: Частный кибердетектив Денис Кудин
-  EN: Private Cyberdetective Dennis Kudin
+  ru: Частный кибердетектив Денис Кудин
+  en: Private Cyberdetective Dennis Kudin
 email: dennis@kudin.net
 description: 
-  RU: Услуги частного кибердетектива в Украине. Комплексный подход к защите информации
-  EN: Complex services for information protection
+  ru: Услуги частного кибердетектива в Украине. Комплексный подход к защите информации
+  en: Complex services for information protection
 index:
-  RU: /
-  EN: /en/
+  ru: /
+  en: /en/
 baseurl: "" 
 url: "" 
 twitter_username: denkudin
