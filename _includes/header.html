@@ -30,3 +30,11 @@
     {% endif %}
   </div>
 </header>
+
+<div class="wrapper" style="text-align: right; line-height: 2em">
+  {% assign posts=site.posts | where:"link", page.link | sort: 'lang' %}
+  {% for post in posts %} <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
+
+  {% assign pages=site.pages | where:"link", page.link | sort: 'lang' %}
+  {% for page in pages %} <a href="{{ page.url | prepand: site.baseurl}}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
+</div>
