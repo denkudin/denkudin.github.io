@@ -1,6 +1,6 @@
 title: 
-   ru: "Частный кибердетектив Денис Кудин"
-   en: "Private Cyberdetective Dennis Kudin"
+- "ru" => "Частный кибердетектив Денис Кудин"
+- "en" => "Private Cyberdetective Dennis Kudin"
 email: dennis@kudin.net
 description:
 - ru: Услуги частного кибердетектива в Украине. Комплексный подход к защите информации
