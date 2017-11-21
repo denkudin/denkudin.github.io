@@ -12,7 +12,7 @@ permalink: /
   {{ content }}
 
   <ul class="post-list">
-    {% assign posts=site.posts | where:"lang", layout.lang %}
+    {% assign posts=site.posts | where:"lang", post.lang %}
     {% for post in site.posts %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
