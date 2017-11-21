@@ -1,12 +1,12 @@
 title: 
-  ru: "Частный кибердетектив Денис Кудин"
+  ua: "Приватний кібердетектив Денис Кудін"
   en: "Private Cyberdetective Dennis Kudin"
 email: dennis@kudin.net
 description:
-  ru: "Услуги частного кибердетектива в Украине. Комплексный подход к защите информации"
+  ua: "Послуги приватного кібердетектива в Україні. Комплексний підхід до захисту інформації"
   en: "Complex services for information protection"
 index:
-  ru: /
+  ua: /
   en: /en/
 baseurl: "" 
 url: "https://denkudin.github.io" 
