@@ -6,7 +6,7 @@ lang: RU
 
 <div class="home">
 
-  <h1 class="page-heading">Записи на русском языке</h1>
+  <h1 class="page-heading">{{ layout.lang }}</h1>
   
   {{ content }}
 
@@ -15,7 +15,7 @@ lang: RU
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
-        {{ layout.lang }}
+        
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
