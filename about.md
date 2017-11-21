@@ -1,7 +1,7 @@
 ---
 layout: page
 link: about
-lang: ru
+lang: ua
 permalink: /about/
 ---
 

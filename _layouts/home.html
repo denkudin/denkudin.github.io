@@ -1,7 +1,8 @@
 ---
 layout: default
-ref: index
+link: index
 lang: ua
+permalink: /
 ---
 
 <div class="home">
@@ -11,6 +12,7 @@ lang: ua
   {{ content }}
 
   <ul class="post-list">
+    {% assign posts=site.posts | where:"lang", layout.lang %}
     {% for post in site.posts %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
