@@ -1,19 +1,23 @@
 ---
+title: Приватний кібердетектив Денис Кудін
+description: Інформація
 layout: page
 link: about
 lang: ua
-permalink: /about/
+permalink: about
 ---
 
-Это сайт на Jekyll. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<center>Інформація</center>
+{: style="font-size: 1.5em;margin: 0.83em 0"}
+<hr />
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Кудін Денис Володимирович
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+* вища освіта за фахом «Комп'ютерні системи і мережі» (Запорізький національний технічний університет - ЗНТУ)
+* голова Державної екзаменаційної комісії за спеціальністю «Захист інформації від несанкціонованого доступу» ЗНТУ
+* курси підвищення кваліфікації за фахом «Захист інформації» (Інститут спецзв'язку і захисту інформації НТУУ КПІ)
+* офіційний стаж трудової діяльності за фахом (в компаніях-ліцензіатах ДСТСЗІ СБУ і Держспецзв'язку) з 1998 року 
+* статус незалежного міжнародного експерта Microsoft Most Valuable Professional з 2007 року
+* член Торгово-промислової палати України
+* член міжнародних організацій ISACA, ISSA, HTCIA
+* член міжнародної робочої групи по боротьбі з кіберзлочинністю комітету ISPAC Організації об'єднаних націй
