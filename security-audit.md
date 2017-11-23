@@ -1,6 +1,6 @@
 ---
 title: Приватний кібердетектив Денис Кудін
-description: Аудит інформаційної безпеки
+description: Аудит безпеки інформаційних систем і програмного забезпечення
 layout: page
 link: security-audit
 lang: ua
