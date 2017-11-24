@@ -1,5 +1,7 @@
 ---
-layout: default
+title: Приватний кібердетектив Денис Кудін
+description: Новини та події
+layout: page
 link: news
 lang: ua
 permalink: news
@@ -7,27 +9,8 @@ permalink: news
 
 <div class="home">
  
-<img src="/assets/images/i7.png" align="left" hspace=15 /><h5>Кібердетектив</h5>
-<div align=justify>Пошук, збирання та аналіз інформації, встановлення фактів і соціальних зв'язків між особами, розшук за наявності часткових або застарілих даних про особу, з використанням мережі Інтернет засобами та методами, не забороненими законом <a href="cyberdetective">...>></a></div>
-<p>&nbsp;</p>
-<img src="/assets/images/i0.png" align="left" hspace=15 /><h5>Віртуальний бодігард</h5>
-<div align=justify>Головні завдання "Віртуального бодігарда” - забезпечити спокій клієнта, упорядкувати і забезпечити безпеку інформаційних активів, захистити честь, гідність і ділову репутацію клієнта в інформаційному просторі <a href="virtual-bodyguard">...>></a></div>
-<p>&nbsp;</p>
-<img src="/assets/images/i1.png" align="left" hspace=15><h5>Аудит інформаційної безпеки</h5>
-<div align=justify>Аудит безпеки дозволяє перевірити, наскільки добре захищена інформаційна система підприємства від внутрішніх і зовнішніх загроз, підтримувати систему інформаційної безпеки на належному рівні, своєчасно виявляти потенційні проблеми <a href="security-audit">...>></a></div>
-<p>&nbsp;</p>
-<img src="/assets/images/i3.png" align="left" hspace=15><h5>Реагування на інциденти інформаційної безпеки</h5>
-<div align=justify>Комплекс заходів по швидкому реагуванню та розслідування інцидентів інформаційної безпеки, при співпраці з правоохоронними органами і міжнародними організаціями <a href="incident-response">...>></a></div>
-<p>&nbsp;</p>
-<img src="/assets/images/i6.png" align="left" hspace=15 /><h5>Розробка КСЗІ</h5>
-<div align=justify>Розробка комплексних систем захисту інформації для автоматизованих систем класів 1, 2, 3, з підтвердженням відповідності рівня гарантій від Г1 до Г7, згідно вимог Держспецзв'язку України <a href="kszi">...>></a></div>
-<p>&nbsp;</p>
-<img src="/assets/images/i5.png" align="left" hspace=15><h5>Навчальні заходи і консалтинг</h5>
-<div align=justify>Консультації, тренінги, семінари та конференції з інформаційної безпеки в різних містах України. Основні теми і напрямки: захист бізнесу, безпека комп'ютерних систем і мереж, захист від сучасних методів конкурентної розвідки та промислового шпигунства <a href="consulting">...>></a></div>
-<p>&nbsp;</p>
- 
   <ul class="post-list">
-    {% assign posts=site.posts | where:"lang", layout.lang %}
+    {% assign posts=site.posts | where:"lang", "ua" %}
     {% for post in site.posts %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
@@ -40,6 +23,6 @@ permalink: news
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">Подписаться <a href="{{ "/feed.xml" | relative_url }}">через RSS</a></p>
+  <p class="rss-subscribe">Підписатися <a href="{{ "/feed.xml" | relative_url }}">через RSS</a></p>
 
 </div>
