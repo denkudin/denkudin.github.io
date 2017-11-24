@@ -17,7 +17,7 @@ permalink: news
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         
         <h5>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.description | escape }}</a>
         </h5>
       </li>
     {% endfor %}
