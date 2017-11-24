@@ -3,7 +3,7 @@ layout: post
 title: Приватний кібердетектив Денис Кудін
 description: Спеціальна пропозиція для приватних військових компаній України
 date:   2017-10-11 19:30:45 +0200
-categories: trainings
+categories: offers
 lang: ua
 permalink: /news/private-military-offer
 ---
