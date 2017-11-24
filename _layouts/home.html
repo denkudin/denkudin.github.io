@@ -25,21 +25,5 @@ permalink: /
 <img src="/assets/images/i5.png" align="left" hspace=15><h5>Навчальні заходи і консалтинг</h5>
 <div align=justify>Консультації, тренінги, семінари та конференції з інформаційної безпеки в різних містах України. Основні теми і напрямки: захист бізнесу, безпека комп'ютерних систем і мереж, захист від сучасних методів конкурентної розвідки та промислового шпигунства <a href="consulting">...>></a></div>
 <p>&nbsp;</p>
- 
-  <ul class="post-list">
-    {% assign posts=site.posts | where:"lang", layout.lang %}
-    {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        
-        <h5>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h5>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">Подписаться <a href="{{ "/feed.xml" | relative_url }}">через RSS</a></p>
 
 </div>
